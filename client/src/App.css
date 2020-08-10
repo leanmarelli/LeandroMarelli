@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   font-family: "Caladea", serif;
+  scroll-behavior: smooth;
 }
 
 *:focus {
@@ -14,13 +15,6 @@ ol {
 }
 li {
   list-style-type: none;
-}
-
-.scroll-container {
-  display: block;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  text-align: center;
 }
 
 section {

@@ -103,7 +103,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="contactContainer">
-        <section id="contact">
+        <section id="contact" className="menu-link">
           <div className="contactTitle">
             <h3 id="contact">CONTACT ME</h3>
           </div>

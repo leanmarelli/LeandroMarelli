@@ -10,8 +10,8 @@ class App extends Component {
       <div className="contenedor">
         <div className="scroll-container">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <section id="lean">
-            <header >
+          <section id="lean" className="menu-link">
+            <header>
               <nav className="main-nav">
                 <a href="#lean">Lean</a>
                 <a href="#about">About</a> <a href="#skills">Skills</a>
@@ -22,13 +22,13 @@ class App extends Component {
               <div className="contenedor-indice">
                 <h1>
                   {" "}
-              Hi! I'm <span>Leandro Marelli</span>.
-            </h1>
+                  Hi! I'm <span>Leandro Marelli</span>.
+                </h1>
                 <h2>I'm a full-stack web developer.</h2>
                 <a href="#about">
                   <button className="seeMore">
                     See more
-                <svg
+                    <svg
                       width="1.5em"
                       height="1.5em"
                       viewBox="0 0 16 16"

@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Skills() {
   return (
-    <section id="skills">
+    <section id="skills" className="menu-link">
       <div id="" className="skillsContainer">
         <div className="skillsTitle">
           <h3> SKILLS </h3>
@@ -34,7 +34,11 @@ function Skills() {
                 <span> UIkit </span>
               </li>
               <li>
-                <img src={"/img/express.png"} className="skillLogo" alt="logo" />
+                <img
+                  src={"/img/express.png"}
+                  className="skillLogo"
+                  alt="logo"
+                />
                 <span> Express </span>
               </li>
 
@@ -47,7 +51,11 @@ function Skills() {
                 <span> React </span>
               </li>
               <li>
-                <img src={"/img/bootstrap.png"} className="skillLogo" alt="logo" />
+                <img
+                  src={"/img/bootstrap.png"}
+                  className="skillLogo"
+                  alt="logo"
+                />
                 <span>Bootstrap </span>
                 {/* Trabajo en equipo
               Adaptabilidad
