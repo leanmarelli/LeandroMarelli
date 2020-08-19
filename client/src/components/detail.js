@@ -34,7 +34,7 @@ function Detail() {
               </li>
               <li className="cv">
                 My CV{" "}
-                <a href="https://drive.google.com/file/d/1hjrKmQfyyIcM40Gt7weeBIzPV39pc1ON/preview">
+                <a href="https://drive.google.com/file/d/1MJax8OTMq5CLDCLCAOKexKEgiYxcaXHB/view?usp=sharing">
                   here
                 </a>{" "}
                 <br />
