@@ -75,7 +75,7 @@ class Contact extends Component {
       this.setState({
         sent: false,
       });
-    }, 5000);
+    }, 7000);
   };
   /* 
 

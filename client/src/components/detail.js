@@ -17,8 +17,7 @@ function Detail() {
                 I am a Front-End and Back-End Developer. I studied Full-Stack
                 web development in Digital House. I have passion for CSS, HTML
                 and MySQL.
-                <p></p>
-              </p>
+                </p>
             </div>
           </div>
           <div className="aboutContainer">
@@ -40,7 +39,7 @@ function Detail() {
                 <br />
               </li>
               <li>
-                lmarelli17@gmail.com <br />
+                marellilean@gmail.com <br />
               </li>
               <li className="iconsDetail">
                 <a href="https://github.com/leanmarelli">
