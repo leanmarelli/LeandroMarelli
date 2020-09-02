@@ -1,5 +1,5 @@
 # Leandro Marelli
-My own page with ReactJs
+My own page with React Js
 
 
 1. ### `npm install`
