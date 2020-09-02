@@ -8,4 +8,6 @@ My own page with React Js
 2. ### `npm run dev`
   Do this to run the client app.
   
-3. ### Wait a few minutes, it will automatically open `localhost:3000`
+3. ### Wait a few minutes, it will automatically open `[http://localhost:3000](http://localhost:3000`
+
+The page will reload if you make edits.
