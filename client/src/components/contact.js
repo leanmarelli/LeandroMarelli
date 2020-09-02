@@ -138,6 +138,7 @@ class Contact extends Component {
                       placeholder="Your phone number..."
                       value={this.state.tel}
                       onChange={this.handleTel}
+                      required
                     ></input>
                   </label>
                 </div>

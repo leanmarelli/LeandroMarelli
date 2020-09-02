@@ -17,6 +17,10 @@ li {
   list-style-type: none;
 }
 
+::selection {
+  background-color: #00cfd6;
+}
+
 section {
   display: flex;
   align-items: center;
@@ -54,10 +58,6 @@ section {
   color: #00a1a7;
 }
 
-.main-nav a:active {
-  border-bottom: 4px dotted #00a1a7;
-  color: #00a1a7;
-}
 
 /*CONAINER*/
 .contenedor {
@@ -92,6 +92,7 @@ section {
   background: transparent;
   border-radius: 3px;
   transition-duration: 400ms;
+  box-shadow: 0 0 2px #727272;
 }
 
 .seeMore:hover svg {
@@ -431,7 +432,7 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 50px;
+  height: 40px;
   width: 100%;  
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 100;
@@ -445,7 +446,7 @@ section {
 /*MEDIA*/
 
 
-@media (max-width: 1023px) {
+@media (max-width: 425px) {
   .nombre-profesion h1 {
     font-size: 40px;
   }
@@ -454,11 +455,6 @@ section {
     font-size: 22px;
   }
 
-  .bioTitle h3,
-  .skillsTitle h3,
-  .contactTitle h3 {
-    margin-top: 22%;
-  }
 
   .bioTitle,
   .skillsTitle,
@@ -512,8 +508,7 @@ section {
   }
 
   .skills li {
-    width: 30%;
-    padding: 15px;
+    width: 33.33%;
   }
 
 .skills li div {
@@ -523,8 +518,3 @@ section {
   
 }
 
-@media (max-width: 450px){
-.skills li div {
-    width: 100%
-  }
-}
